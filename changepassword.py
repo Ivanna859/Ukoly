@@ -39,7 +39,7 @@ def login(username, password):
         return True
     except (KeyError, AssertionError):
         return False
-    
+
 #Homework
 
 def change_password(username, old_password, password, password_repeat):
